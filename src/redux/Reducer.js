@@ -1,12 +1,25 @@
 import * as ActionTypes from './ActionTypes';
 
-export function Reducer(state = {
+export function Reducer(
+  state = {
     todos: []
-}, action){
-    switch(action.type){
-        case ActionTypes.ADD_TODO:
-            return {...state, todos: [...state.todos, action.payload]}
-        case ActionTypes.POP_TODO:
-            return {...state, todos: [...state.todos].filter(todo => todo.id !== action.payload)}
-    }
+  },
+  action
+) {
+  switch (action.type) {
+    case ActionTypes.ADD_TODO:
+      let todoId = state.todos.length;
+      let todo = { id: todoId, message: action.payload };
+      return {
+        ...state,
+        todos: state.todos.concat(todo)
+      };
+    case ActionTypes.POP_TODO:
+      return {
+        ...state,
+        todos: [...state.todos].filter((todo) => todo.id !== action.payload)
+      };
+    default:
+      return { ...state };
+  }
 }
