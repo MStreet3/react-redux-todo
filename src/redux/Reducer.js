@@ -1,4 +1,5 @@
 import * as ActionTypes from './ActionTypes';
+import uuid from 'uuid/v4';
 
 export function Reducer(
   state = {
@@ -8,7 +9,7 @@ export function Reducer(
 ) {
   switch (action.type) {
     case ActionTypes.ADD_TODO:
-      let todoId = state.todos.length;
+      let todoId = uuid();
       let todo = { id: todoId, message: action.payload };
       return {
         ...state,
