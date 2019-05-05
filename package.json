@@ -3,20 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "husky": "^2.2.0",
+    "lint-staged": "^8.1.6",
+    "prettier": "^1.17.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
     "react-scripts": "3.0.0",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint '{src,__mocks__,tests}/**/*.{js,json}'",
+    "precommit": "lint-staged",
+    "pretty": "prettier --single-quote --arrow-parens=always --list-different '{src,__mocks__,tests}/**/*.{js,json,ts,tsx}'",
+    "format": "prettier --single-quote --arrow-parens=always --write '{src,__mocks__,tests}/**/*.{js,json,ts,tsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "lint-staged": {
+    "{src,__mocks__,tests}/**/*.{js,json}": [
+      "prettier --single-quote --arrow-parens=always --write",
+      "./node_modules/.bin/eslint",
+      "git add"
+    ]
   },
   "browserslist": {
     "production": [
