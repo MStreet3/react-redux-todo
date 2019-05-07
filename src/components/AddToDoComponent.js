@@ -31,6 +31,7 @@ class AddToDo extends Component {
           value={this.state.message}
           onChange={this.handleChange}
         />
+
         <button type="button" onClick={(e) => this.handleClick(e)}>
           Add Task
         </button>

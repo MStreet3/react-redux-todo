@@ -14,19 +14,24 @@ const mapDispatchToProps = (dispatch) => ({
   addToDo: (todo) => dispatch(addToDo(todo)),
   popToDo: (todoId) => dispatch(popToDo(todoId))
 });
-
+// className="col-xs-6 col-xs-offset-6"
 class Main extends Component {
   render() {
     return (
-      <div className="container vertical-center">
-        <div className="row h-100 justify-content-center">
+      <div className="container">
+        <div className="row justify-content-center">
           <h1>ToDo List</h1>
         </div>
-        <div className="row h-100 justify-content-center">
-          <ToDoList
-            todos={this.props.todos}
-            completeTask={this.props.popToDo}
-          />
+
+        <div className="row">
+          <div className="col-sm-offset-6 col-sm-6">
+            <ToDoList
+              todos={this.props.todos}
+              completeTask={this.props.popToDo}
+            />
+          </div>
+        </div>
+        <div className="row justify-content-center">
           <AddToDo addComment={this.props.addToDo} />
         </div>
       </div>
