@@ -17,6 +17,9 @@ class AddToDo extends Component {
   handleClick(e) {
     e.preventDefault();
     this.props.addComment(this.state.message);
+    this.setState({
+      message: ''
+    });
   }
 
   render() {
