@@ -18,3 +18,12 @@ code {
   display: flex;
   align-items: center;
 }
+
+.btn-round{
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #eb5757;
+  color: #e0e0e0;
+}

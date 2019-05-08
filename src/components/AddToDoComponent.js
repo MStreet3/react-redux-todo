@@ -32,7 +32,11 @@ class AddToDo extends Component {
           onChange={this.handleChange}
         />
 
-        <button type="button" onClick={(e) => this.handleClick(e)}>
+        <button
+          className="btn-round"
+          type="button"
+          onClick={(e) => this.handleClick(e)}
+        >
           Add Task
         </button>
       </div>
