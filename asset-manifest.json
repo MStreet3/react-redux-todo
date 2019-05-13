@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/react-redux-todo/static/css/main.f6b18f0e.chunk.css",
-    "main.js": "/react-redux-todo/static/js/main.c365fe45.chunk.js",
-    "main.js.map": "/react-redux-todo/static/js/main.c365fe45.chunk.js.map",
+    "main.css": "/react-redux-todo/static/css/main.fb5d7765.chunk.css",
+    "main.js": "/react-redux-todo/static/js/main.957e50f4.chunk.js",
+    "main.js.map": "/react-redux-todo/static/js/main.957e50f4.chunk.js.map",
     "runtime~main.js": "/react-redux-todo/static/js/runtime~main.620750b1.js",
     "runtime~main.js.map": "/react-redux-todo/static/js/runtime~main.620750b1.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/react-redux-todo/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.e01d8ded.chunk.js": "/react-redux-todo/static/js/2.e01d8ded.chunk.js",
-    "static/js/2.e01d8ded.chunk.js.map": "/react-redux-todo/static/js/2.e01d8ded.chunk.js.map",
+    "static/css/2.bf6c21fe.chunk.css": "/react-redux-todo/static/css/2.bf6c21fe.chunk.css",
+    "static/js/2.408a2698.chunk.js": "/react-redux-todo/static/js/2.408a2698.chunk.js",
+    "static/js/2.408a2698.chunk.js.map": "/react-redux-todo/static/js/2.408a2698.chunk.js.map",
     "index.html": "/react-redux-todo/index.html",
-    "precache-manifest.c587ab7227d96dabfac5fab1875f9780.js": "/react-redux-todo/precache-manifest.c587ab7227d96dabfac5fab1875f9780.js",
+    "precache-manifest.46605b7fb40ba58af94112519676ffcd.js": "/react-redux-todo/precache-manifest.46605b7fb40ba58af94112519676ffcd.js",
     "service-worker.js": "/react-redux-todo/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/react-redux-todo/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.f6b18f0e.chunk.css.map": "/react-redux-todo/static/css/main.f6b18f0e.chunk.css.map"
+    "static/css/2.bf6c21fe.chunk.css.map": "/react-redux-todo/static/css/2.bf6c21fe.chunk.css.map",
+    "static/css/main.fb5d7765.chunk.css.map": "/react-redux-todo/static/css/main.fb5d7765.chunk.css.map",
+    "static/media/font-awesome.css": "/react-redux-todo/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
