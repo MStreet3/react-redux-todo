@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-redux-todo/static/css/main.fb5d7765.chunk.css",
+    "main.css": "/react-redux-todo/static/css/main.9c88f988.chunk.css",
     "main.js": "/react-redux-todo/static/js/main.957e50f4.chunk.js",
     "main.js.map": "/react-redux-todo/static/js/main.957e50f4.chunk.js.map",
     "runtime~main.js": "/react-redux-todo/static/js/runtime~main.620750b1.js",
@@ -9,10 +9,10 @@
     "static/js/2.408a2698.chunk.js": "/react-redux-todo/static/js/2.408a2698.chunk.js",
     "static/js/2.408a2698.chunk.js.map": "/react-redux-todo/static/js/2.408a2698.chunk.js.map",
     "index.html": "/react-redux-todo/index.html",
-    "precache-manifest.46605b7fb40ba58af94112519676ffcd.js": "/react-redux-todo/precache-manifest.46605b7fb40ba58af94112519676ffcd.js",
+    "precache-manifest.7c155b1f873ce692cd999997c964a99f.js": "/react-redux-todo/precache-manifest.7c155b1f873ce692cd999997c964a99f.js",
     "service-worker.js": "/react-redux-todo/service-worker.js",
     "static/css/2.bf6c21fe.chunk.css.map": "/react-redux-todo/static/css/2.bf6c21fe.chunk.css.map",
-    "static/css/main.fb5d7765.chunk.css.map": "/react-redux-todo/static/css/main.fb5d7765.chunk.css.map",
+    "static/css/main.9c88f988.chunk.css.map": "/react-redux-todo/static/css/main.9c88f988.chunk.css.map",
     "static/media/font-awesome.css": "/react-redux-todo/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
